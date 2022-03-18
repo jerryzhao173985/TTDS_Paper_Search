@@ -25,3 +25,5 @@ Just simply run:
 ```from search.models import Paper, myCsvModel```
 
 ```len(Paper.objects.all())```
+
+```sudo lsof -t -i tcp:8000 | xargs kill -9```
