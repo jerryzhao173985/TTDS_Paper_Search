@@ -1,9 +1,9 @@
 # TTDS_Paper_Search
 
 
-Full Source Code To TTDS Online Paper Search Engine Like Google Using Django.
+Full Source Code To TTDS Online Paper Search Engine Google-Like Using Django.
 
-Check Out The Ful Tutorial Here On Youtube: https://youtu.be/l8nI5K1vi3Y
+Check Out The Ful Demo Video Here On Youtube: https://youtu.be/l8nI5K1vi3Y
 
 
 ![TTDS Online Paper Search Demo](demo.gif)
