@@ -17,3 +17,9 @@ Check Out The Ful Demo Video Here On Youtube: https://youtu.be/l8nI5K1vi3Y
 Just simply run:
 
 ```python manage.py runserver```
+
+### Other useful Django shell commands:
+
+```csv_list = myCsvModel.import_data(data=open("/Users/jerry/Downloads/allDataNew"))```
+```from search.models import Paper, myCsvModel```
+```len(Paper.objects.all())```
