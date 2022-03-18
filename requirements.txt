@@ -87,3 +87,4 @@ widgetsnbextension==3.5.2
 zipp==3.7.0
 git+https://github.com/jerryzhao173985/django-adaptors.git
 psycopg2-binary
+gunicorn
