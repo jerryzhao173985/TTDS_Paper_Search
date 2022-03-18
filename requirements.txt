@@ -86,3 +86,4 @@ whitenoise==6.0.0
 widgetsnbextension==3.5.2
 zipp==3.7.0
 git+https://github.com/jerryzhao173985/django-adaptors.git
+psycopg2==2.7.4
