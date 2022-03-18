@@ -21,5 +21,7 @@ Just simply run:
 ### Other useful Django shell commands:
 
 ```csv_list = myCsvModel.import_data(data=open("/Users/jerry/Downloads/allDataNew"))```
+
 ```from search.models import Paper, myCsvModel```
+
 ```len(Paper.objects.all())```
