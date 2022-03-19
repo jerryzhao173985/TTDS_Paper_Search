@@ -1,5 +1,7 @@
 # TTDS_Paper_Search
 
+Website is deployed and hosted here: https://rocky-cove-23591.herokuapp.com/ WIth connection to Heroku PostgreSQL database.
+
 
 Full Source Code To TTDS Online Paper Search Engine Google-Like Using Django.
 
@@ -27,3 +29,14 @@ Just simply run:
 ```len(Paper.objects.all())```
 
 ```sudo lsof -t -i tcp:8000 | xargs kill -9```
+
+
+# Command for PostgreSQL database:
+
+```heroku pg:psql -a rocky-cove-23591```
+
+```\copy papers FROM 'DB' DELIMITER ';' CSV```
+
+```rocky-cove-23591::DATABASE=> CREATE TABLE papers```
+
+```rocky-cove-23591::DATABASE-> CONFERENCE char(50), URL char(200), TITLE char(100), AUTHORS char(150), ABSTRACT char(1000), CITATIONS integer```
