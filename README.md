@@ -10,6 +10,8 @@ Check Out The Ful Demo Video Here On Youtube: https://youtu.be/l8nI5K1vi3Y
 
 ![TTDS Online Paper Search Demo](demo.gif)
 
+If run locally:
+
 ### Installation
 
 ```pip install django bs4 requests lxml django_heroku```
