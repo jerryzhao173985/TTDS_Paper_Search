@@ -33,12 +33,12 @@ Just simply run:
 ```sudo lsof -t -i tcp:8000 | xargs kill -9```
 
 
-# Command for PostgreSQL database:
+## Command for PostgreSQL database:
 
 ```heroku pg:psql -a rocky-cove-23591```
 
-```\copy papers FROM 'DB' DELIMITER ';' CSV```
+```\copy search_paper FROM 'DB' DELIMITER ';' CSV```
 
 ```rocky-cove-23591::DATABASE=> CREATE TABLE papers```
 
-```rocky-cove-23591::DATABASE-> CONFERENCE char(50), URL char(200), TITLE char(100), AUTHORS char(150), ABSTRACT char(1000), CITATIONS integer```
+```rocky-cove-23591::DATABASE-> (CONFERENCE char(50), URL char(500), TITLE char(500), AUTHORS char(500), ABSTRACT char(5000), CITATIONS integer);```
