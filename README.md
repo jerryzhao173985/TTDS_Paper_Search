@@ -3,7 +3,7 @@
 Website is deployed and hosted here: https://rocky-cove-23591.herokuapp.com/ WIth connection to Heroku PostgreSQL database.
 
 
-Full Source Code To TTDS Online Paper Search Engine Google-Like Using Django.
+Full Source Code To TTDS Online Paper Search Engine Google-Like Using Django. Heroku hosted version repo is also available: https://github.com/jerryzhao173985/Django-based-Heroku-app-Search-Engine.git.
 
 Check Out The Ful Demo Video Here On Youtube: https://youtu.be/l8nI5K1vi3Y
 
